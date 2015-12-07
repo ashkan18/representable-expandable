@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    representable-expandable (1.0.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    rake (0.9.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rake
+  representable-expandable!
+
+BUNDLED WITH
+   1.10.6
