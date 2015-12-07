@@ -1,5 +1,5 @@
-# Representable Expandable Extension
-[![Build Status](https://travis-ci.org/ashkan18/representable-expandable.svg?branch=master)](https://travis-ci.org/ashkan18/representable-expandable)
+# Representable Expandable Extension [![Build Status](https://travis-ci.org/ashkan18/representable-expandable.svg?branch=master)](https://travis-ci.org/ashkan18/representable-expandable)
+
 This gem is an extension on top of [Representable](https://github.com/apotonick/representable) which allows us to by default exclude properties/collections from representables and explicitly include them by setting right option on Representable. 
 
 ## Install
