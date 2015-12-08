@@ -2,7 +2,7 @@
 
 This gem is an extension on top of [Representable](https://github.com/apotonick/representable) which allows us to by default exclude properties/collections from representables and explicitly include them by setting right option on Representable. 
 
-## Install
+## Installation
 Add following line to your Gemfile
 
 ```
@@ -31,3 +31,21 @@ message = Message.new(id: 'test', subject: 'test subject', body: 'test body', at
 message.extend(MessageRepresenter).to_json(expand: ['attachments'])
 ```
 Note that `expand` gets an array as input.
+
+##Thanks
+-----------------
+
+Sidekiq stays fast by using the [JProfiler java profiler](http://www.ej-technologies.com/products/jprofiler/overview.html) to find and fix
+performance problems on JRuby.  Unfortunately MRI does not have good multithreaded profiling tools.
+
+
+License
+-----------------
+
+Please see [LICENSE](https://github.com/mperham/sidekiq/blob/master/LICENSE) for licensing details.
+
+
+Author
+-----------------
+
+Mike Perham, [@mperham](https://twitter.com/mperham) / [@sidekiq](https://twitter.com/sidekiq), [http://www.mikeperham.com](http://www.mikeperham.com) / [http://www.contribsys.com](http://www.contribsys.com)
