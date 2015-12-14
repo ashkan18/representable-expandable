@@ -19,7 +19,7 @@ module MessageRepresenter
 
   property :id
   property :subject
-  property :body
+  property :body, expandable: true
   collection :attachments, extend: AttachmentRepresenter, class: Attachment, expandable: true
 end
 ```
