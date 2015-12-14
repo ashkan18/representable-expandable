@@ -32,20 +32,14 @@ message.extend(MessageRepresenter).to_json(expand: ['attachments'])
 ```
 Note that `expand` gets an array as input.
 
+
+##Problems?
+
+Please create a Github issue once you find any issue or had any requests.
+
 ##Thanks
------------------
+Special thanks to [@joeyAghion](https://github.com/joeyAghion) 
 
-Sidekiq stays fast by using the [JProfiler java profiler](http://www.ej-technologies.com/products/jprofiler/overview.html) to find and fix
-performance problems on JRuby.  Unfortunately MRI does not have good multithreaded profiling tools.
+##License
 
-
-License
------------------
-
-Please see [LICENSE](https://github.com/mperham/sidekiq/blob/master/LICENSE) for licensing details.
-
-
-Author
------------------
-
-Mike Perham, [@mperham](https://twitter.com/mperham) / [@sidekiq](https://twitter.com/sidekiq), [http://www.mikeperham.com](http://www.mikeperham.com) / [http://www.contribsys.com](http://www.contribsys.com)
+Please see [LICENSE](LICENSE) for licensing details.
